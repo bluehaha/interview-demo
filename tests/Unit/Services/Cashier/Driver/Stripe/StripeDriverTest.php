@@ -9,7 +9,6 @@ use App\Services\Cashier\Driver\Stripe\StripeDriver;
 use App\Services\Cashier\DTO\CheckoutData;
 use App\Services\Cashier\DTO\CheckoutResponseData;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Validator;
 use Mockery;
